@@ -1,6 +1,6 @@
 export default {
-  ssr: true, // Ensure SSR is enabled
-  target: 'server',
+  ssr: false, // Ensure SSR is enabled
+  target: 'static',
   modules: ['@nuxtjs/axios', '@nuxtjs/auth-next', '@nuxt/postcss8', '@nuxtjs/toast'],
 
   axios: {
